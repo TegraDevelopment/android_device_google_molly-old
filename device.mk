@@ -13,6 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += device/google/molly/overlay-tv
+
 # TV-specific Apps/Packages
 PRODUCT_PACKAGES += \
     AppDrawer \
