@@ -13,6 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Inherit from vendor
+$(call inherit-product-if-exists, vendor/google/molly/molly-tv-vendor.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/molly/overlay-tv
 
