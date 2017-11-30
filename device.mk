@@ -19,6 +19,18 @@ $(call inherit-product-if-exists, vendor/google/molly_tab/molly_tab-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/molly_tab/overlay
 
+# Device Type
+PRODUCT_CHARACTERISTICS := tablet,nosdcard
+
+# DPI
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=240
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml \
+    device/google/molly/permissions/molly.xml:system/etc/permissions/molly.xml
+
 # Inherit from molly-common
 $(call inherit-product, device/google/molly-common/device.mk)
 
