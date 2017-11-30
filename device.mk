@@ -23,6 +23,11 @@ PRODUCT_CHARACTERISTICS := tv,nosdcard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    device/google/tv_molly/permissions/com.google.android.tv.installed.xml:system/etc/permissions/com.google.android.tv.installed.xml \
+    device/google/tv_molly/permissions/tv_molly.xml:system/etc/permissions/tv_molly.xml
+
 # TV-specific Apps/Packages
 PRODUCT_PACKAGES += \
     AppDrawer \
