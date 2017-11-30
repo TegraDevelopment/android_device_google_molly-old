@@ -16,6 +16,9 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/molly/overlay-tv
 
+# Device Type
+PRODUCT_CHARACTERISTICS := tv,nosdcard
+
 # DPI
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
