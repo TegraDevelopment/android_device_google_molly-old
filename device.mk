@@ -13,5 +13,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# TV-specific Apps/Packages
+PRODUCT_PACKAGES += \
+    AppDrawer \
+    LeanbackCustomize \
+    LeanbackLauncher \
+    LeanbackIme \
+    Provision \
+    TvProvider \
+    tv_input.default \
+    TV
+
 # Inherit from molly-common
 $(call inherit-product, device/google/molly-common/device.mk)
