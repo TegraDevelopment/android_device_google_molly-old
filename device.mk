@@ -16,6 +16,10 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/molly/overlay-tv
 
+# DPI
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=320
+
 # TV-specific Apps/Packages
 PRODUCT_PACKAGES += \
     AppDrawer \
