@@ -1,0 +1,6 @@
+add_lunch_combo aosp_molly_tab-eng
+add_lunch_combo aosp_molly_tab-user
+add_lunch_combo aosp_molly_tab-userdebug
+add_lunch_combo lineage_molly_tab-eng
+add_lunch_combo lineage_molly_tab-userdebug
+add_lunch_combo lineage_molly_tab-user
