@@ -1,1 +1,2 @@
 add_lunch_combo tv_molly-userdebug
+add_lunch_combo lineage_tv_molly-userdebug
