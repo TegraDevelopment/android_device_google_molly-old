@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "npjohnson/android_device_google_molly-common",
+    "target_path": "device/google/molly-common"
+    "revision": "master"
+  }
+] 
