@@ -16,5 +16,9 @@
 # Inherit from vendor
 $(call inherit-product-if-exists, vendor/google/molly_tab/molly_tab-vendor.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += device/google/molly_tab/overlay
+
 # Inherit from molly-common
 $(call inherit-product, device/google/molly-common/device.mk)
+
